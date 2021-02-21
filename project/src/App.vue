@@ -1,5 +1,12 @@
 <template>
+  <div>
+    <head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+	</head>
+
   <LandingPage/>
+  </div>
 </template>
 
 <script>
@@ -9,7 +16,7 @@ export default {
   name: 'App',
   components: {
     LandingPage
-  }
+  },
 }
 </script>
 

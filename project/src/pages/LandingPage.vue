@@ -10,8 +10,8 @@
 							<p>Graduate Software Developer</p>
 						</header>
 						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
+						<a href="#" class="button">Portfolio</a>
+						<form method="post" action="#" style="display: none">
 							<div class="field">
 								<input type="text" name="name" id="name" placeholder="Name" />
 							</div>
@@ -46,9 +46,8 @@
 						<hr />
 						<footer>
 							<ul class="icons">
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
+								<li><a href="https://github.com/LMunday98" class="fa-github">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/luke-m-53478a133/" class="fa-linkedin">LinkedIn</a></li>
 							</ul>
 						</footer>
 					</section>
@@ -56,7 +55,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Luke Munday</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
@@ -65,13 +64,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'LandingPage',
 }
 </script>
 
 <style scoped>
-  @import "../assets/css/main.css"
+  @import "../assets/css/landing.css"
 </style>
